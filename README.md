@@ -1,6 +1,6 @@
 ## Algorithm Description: Removing Adjacent Duplicates
 
-This C++ algorithm is designed to remove adjacent duplicates from a sequence while preserving the original order of elements. For instance, given a sequence `{1, 1, 2, 2, 3, 3, 4, 5, 6, 7}`, applying this algorithm would result in `{1, 2, 3, 4, 5, 6, 7}`.
+This C++ algorithm is designed to remove adjacent duplicates from a sorted sequence, preserving the original order of elements. For instance, given a sorted sequence {1, 1, 2, 2, 3, 3, 4, 5, 6, 7}, applying this algorithm would result in {1, 2, 3, 4, 5, 6, 7}.
 
 ### How It Works
 
@@ -26,6 +26,6 @@ This algorithm's implementation has a time complexity of O(n), which may not be 
 
 ### License
 
-This code is provided under the [MIT License](https://opensource.org/licenses/MIT).
+This code is provided under the [MIT License](LICENSE).
 
 ---
